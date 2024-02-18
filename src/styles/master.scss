@@ -1,5 +1,7 @@
 body {
   margin: 0;
+  letter-spacing: 0.75px;
+  line-height: 30px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -11,3 +13,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+// NAVIGATION
+
+@import url(./nav/navDesktopSideNavMainStyles.scss);
+@import url(./nav/navDesktopSideNavMediaQueries.scss);
+
+@import url(./nav/navMobileSideNavMainStyles.scss);
+@import url(./nav/navMobileSideNavMediaQueries.scss);
+
+@import url(./nav/navTopBarMainStyles.scss);
+@import url(./nav/navTopBarMediaQueries.scss);
+
+// HOMEPAGE
+
+@import url(./home/homeMainStyles.scss);
+@import url(./home/homeMediaQueries.scss);
