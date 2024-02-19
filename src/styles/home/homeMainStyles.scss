@@ -1,0 +1,83 @@
+@import "../colors.scss";
+@import "../animations.scss";
+
+.homepage-wrapper {
+  .homepage-intro-wrapper {
+    min-height: calc(100vh - 160px - 40px);
+    padding: 80px;
+    background-color: $primary;
+    display: flex;
+    align-items: center;
+
+    .homepage-intro-text-wrapper {
+      padding-right: 80px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 40px;
+
+      .homepage-intro-welcome {
+        color: $secondary; 
+        font-weight: 600;
+      }
+
+      .homepage-intro-header {
+        font-size: 28px;
+        color: #FFF;
+        font-weight: 600;
+      }
+
+      .homepage-intro-text {
+        color: #FFF;
+        font-size: 18px;
+      }
+
+      .homepage-intro-toggle-wrapper {
+        height: 30px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        .homepage-intro-toggle {
+          border: none;
+          padding: 0px;
+          width: 12.5px;
+          height: 12.5px;
+          border-radius: 50%;
+        }
+
+        .homepage-intro-toggle-active {
+          background: radial-gradient(circle, #a66bff, #c666ef, #dd62df, #ee61cf, #fb64bf);
+          border-radius: 10px;
+          width: 30px;
+        }
+      }
+
+      .homepage-intro-action-button {
+        width: 150px;
+        height: 50px;
+        border: none;
+        border-radius: 10px;
+        color: #000;
+        font-weight: 600;
+        font-size: 16px;
+        cursor: pointer;
+        background: radial-gradient(circle, #feb302, #f8c600, #eed900, #e0ec00, #cdff05);
+
+        &:hover {
+          animation-name: radialGradientExpansion;
+          animation-duration: 200ms;
+          animation-fill-mode:forwards;
+          animation-iteration-count: 1;
+        }
+      }
+    }
+
+    // TODO WHEN I HAVE IMAGES
+    // .homepage-intro-image-wrapper {
+    //   .homepage-intro-image {
+
+    //   }
+    // }
+  }
+}

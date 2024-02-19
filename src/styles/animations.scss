@@ -1,0 +1,21 @@
+@keyframes radialGradientExpansion {
+  from {
+    background: radial-gradient(circle, #feb302, #f8c600, #eed900, #e0ec00, #cdff05);
+  }
+
+  25% {
+    background: radial-gradient(circle, #feb302, #feb302, #eed900, #e0ec00, #cdff05);
+  }
+
+  50% {
+    background: radial-gradient(circle, #feb302, #feb302, #feb302, #e0ec00, #cdff05);
+  }
+
+  75% {
+    background: radial-gradient(circle, #feb302, #feb302, #feb302, #feb302, #cdff05);
+  }
+
+  to {
+    background: radial-gradient(circle, #feb302, #feb302, #feb302, #feb302, #feb302);
+  }
+}
