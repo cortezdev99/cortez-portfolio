@@ -109,7 +109,7 @@
         font-weight: 600;
       }
 
-      .homepage-about-us-sub-header {
+      .homepage-about-us-subheader {
         font-size: 28px;
         color: $primary;
         font-weight: 600;
@@ -142,6 +142,98 @@
           animation-duration: 200ms;
           animation-fill-mode:forwards;
           animation-iteration-count: 1;
+        }
+      }
+    }
+  }
+
+  // SERVICES SECTION
+
+  .homepage-services-wrapper {
+    min-height: calc(100vh - 160px);
+    padding: 80px;
+    background-color: $primary;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+
+    .homepage-services-header {
+      color: $secondary; 
+      font-weight: 600;
+    }
+
+    .homepage-services-subheader {
+      font-size: 28px;
+      color: $primary;
+      font-weight: 600;
+    }
+
+    .homepage-services-text {
+      color: #FFF;
+      font-size: 18px;
+    }
+
+    .homepage-services-action-button {
+      margin-top: 40px;
+      width: max-content;
+      padding: 0px 20px;
+      height: 50px;
+      border: none;
+      border-radius: 10px;
+      color: #000;
+      font-weight: 600;
+      font-size: 16px;
+      cursor: pointer;
+      background: radial-gradient(circle, #feb302, #f8c600, #eed900, #e0ec00, #cdff05);
+
+      &:hover {
+        animation-name: radialGradientExpansion;
+        animation-duration: 200ms;
+        animation-fill-mode:forwards;
+        animation-iteration-count: 1;
+      }
+    }
+
+    // HOMEPAGE SERVICES CAROUSEL
+
+    .homepage-services-carousel-wrapper {
+      padding-top: 47.5px;
+      display: flex;
+      gap: 20px;
+      flex: 1;
+      overflow: hidden;
+      
+      .homepage-service-wrapper {
+        background-color: $primary-varient-two;
+        padding: 10px 60px 10px 10px;
+        border-radius: 10px;
+        
+
+        .homepage-service-image-wrapper {
+          border-radius: 10px;
+          overflow: hidden;
+          display: flex;
+          flex: 1;
+
+          .homepage-service-image {
+            height: 150px;
+            width: 250px;
+          }
+        }
+
+        .homepage-service-text-wrapper {
+          .homepage-service-header {
+            font-size: 20px;
+            padding-top: 20px;
+            font-weight: 600;
+            color: #FFF;
+          }
+  
+          .homepage-service-text {
+            padding-top: 10px;
+            font-size: 15px;
+            color: #FFF;
+          }
         }
       }
     }

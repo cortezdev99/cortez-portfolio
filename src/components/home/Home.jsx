@@ -45,7 +45,7 @@ const Home = () => {
             Who We Are
           </div>
 
-          <div className="homepage-about-us-sub-header">
+          <div className="homepage-about-us-subheader">
             We Are <span className="homepage-text-varient">All In One</span> IT Solution & Technology Company
           </div>
 
@@ -65,75 +65,83 @@ const Home = () => {
         </div>
       </div>
 
-      <div>
-        <div>
+      <div className="homepage-services-wrapper">
+        <div className="homepage-services-header">
           Services
         </div>
 
-        <div>We Provide the Best Quality <span>Services</span></div>
+        <div className="homepage-services-subheader">We Provide the Best Quality <span>Services</span></div>
 
-        <div>
+        <div className="homepage-services-text">
           From developing custom web app solutions to designing seamless user experiences, we have the know-how to tackle any challenge.
         </div>
 
-        <button>
+        <button className="homepage-services-action-button">
           Explore All Services
         </button>
 
-        <div>
-          <div>
-            <div>
-              <img />
+        <div className="homepage-services-carousel-wrapper">
+          <div className="homepage-service-wrapper">
+            <div className="homepage-service-image-wrapper">
+              <img className="homepage-service-image" src="https://source.unsplash.com/random/250x150" />
             </div>
 
-            <div>
-              Web Design
-            </div>
+            <div className="homepage-service-text-wrapper">
+              <div className="homepage-service-header">
+                Web Design
+              </div>
 
-            <div>
-              We create customized software solutions that run specifically on mobile devices.
-            </div>
-          </div>
-
-          <div>
-            <div>
-              <img />
-            </div>
-
-            <div>
-              Web Development
-            </div>
-
-            <div>
-              We create customized software solutions that run specifically on mobile devices.
+              <div className="homepage-service-text">
+                We create customized software solutions that run specifically on mobile devices.
+              </div>
             </div>
           </div>
 
-          <div>
-            <div>
-              <img />
+          <div className="homepage-service-wrapper">
+            <div className="homepage-service-image-wrapper">
+              <img className="homepage-service-image" src="https://source.unsplash.com/random/250x150" />
             </div>
 
-            <div>
-              Mobile App Development
-            </div>
+            <div className="homepage-service-text-wrapper">
+              <div className="homepage-service-header">
+                Web Development
+              </div>
 
-            <div>
-              We create customized software solutions that run specifically on mobile devices.
+              <div className="homepage-service-text">
+                We create customized software solutions that run specifically on mobile devices.
+              </div>
             </div>
           </div>
 
-          <div>
-            <div>
-              <img />
+          <div className="homepage-service-wrapper">
+            <div className="homepage-service-image-wrapper">
+              <img className="homepage-service-image" src="https://source.unsplash.com/random/250x150" />
             </div>
 
-            <div>
-              Search Engine Optimization
+            <div className="homepage-service-text-wrapper">
+              <div className="homepage-service-header">
+                Mobile App Development
+              </div>
+
+              <div className="homepage-service-text">
+                We create customized software solutions that run specifically on mobile devices.
+              </div>
+            </div>
+          </div>
+
+          <div className="homepage-service-wrapper">
+            <div className="homepage-service-image-wrapper">
+              <img className="homepage-service-image" src="https://source.unsplash.com/random/250x150" />
             </div>
 
-            <div>
-              We create customized software solutions that run specifically on mobile devices.
+            <div className="homepage-service-text-wrapper">
+              <div className="homepage-service-header">
+                Search Engine Optimization
+              </div>
+
+              <div className="homepage-service-text">
+                We create customized software solutions that run specifically on mobile devices.
+              </div>
             </div>
           </div>
         </div>
