@@ -237,6 +237,37 @@
         }
       }
     }
+
+    .homepage-services-carousel-toggle-wrapper {
+      padding-top: 20px;
+      height: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+
+      .homepage-services-carousel-toggle {
+        border: none;
+        padding: 0px;
+        width: 12.5px;
+        height: 12.5px;
+        border-radius: 50%;
+        cursor: pointer;
+        transition: 300ms;
+
+        &:hover {
+          background: radial-gradient(circle, #a66bff, #c666ef, #dd62df, #ee61cf, #fb64bf);
+          border-radius: 10px;
+          width: 30px;
+        }
+      }
+
+      .homepage-services-carousel-toggle-active {
+        background: radial-gradient(circle, #a66bff, #c666ef, #dd62df, #ee61cf, #fb64bf);
+        border-radius: 10px;
+        width: 30px;
+      }
+    }
   }
 
   // SHARED STYLES

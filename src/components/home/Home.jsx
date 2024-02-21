@@ -145,6 +145,13 @@ const Home = () => {
             </div>
           </div>
         </div>
+
+        <div className="homepage-services-carousel-toggle-wrapper">
+          <button className="homepage-services-carousel-toggle homepage-services-carousel-toggle-active"></button>
+          <button className="homepage-services-carousel-toggle"></button>
+          <button className="homepage-services-carousel-toggle"></button>
+          <button className="homepage-services-carousel-toggle"></button>
+        </div>
       </div>
 
       <div>
