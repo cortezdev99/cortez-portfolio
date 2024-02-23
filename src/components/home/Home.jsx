@@ -154,17 +154,76 @@ const Home = () => {
         </div>
       </div>
 
-      <div>
-        <div>
-          Why Choose Us
+      <div className="homepage-why-choose-us-wrapper">
+        <div className="homepage-why-choose-us-intro-wrapper">
+          <div className="homepage-why-choose-us-header">
+            Why Choose Us
+          </div>
+
+          <div className="homepage-why-choose-us-subheader">
+            We Help You <span className="homepage-text-varient">Increase Your Sales</span> Through High Quality Solutions
+          </div>
+
+          <div className="homepage-why-choose-us-text">
+            When it comes to meeting your IT needs and achieving your business goals, choosing the right partner is crucial. At PixelPulse, we are dedicated to providing exceptional IT services that empower your business to thrive in the digital landscape.
+          </div>
         </div>
 
-        <div>
-          We Help You Increase Your Sales Through High Quality Solutions
-        </div>
+        <div className="homepage-why-choose-us-list-wrapper">
+          <div className="homepage-why-choose-us-list-item-wrapper">
+            <div className="homepage-why-choose-us-list-item-image-wrapper">
+              <img className="homepage-why-choose-us-list-item-image" src="https://source.unsplash.com/random/115x115" />
+            </div>
 
-        <div>
-          When it comes to meeting your IT needs and achieving your business goals, choosing the right partner is crucial. At PixelPulse, we are dedicated to providing exceptional IT services that empower your business to thrive in the digital landscape.
+            <div className="homepage-why-choose-us-list-item-header">
+              Expertise and Experience
+            </div>
+
+            <div className="homepage-why-choose-us-list-item-text">
+              We possess the expertise to deliver tailored solutions that address your unique challenges.
+            </div>
+          </div>
+
+          <div className="homepage-why-choose-us-list-item-wrapper">
+            <div className="homepage-why-choose-us-list-item-image-wrapper">
+              <img className="homepage-why-choose-us-list-item-image" src="https://source.unsplash.com/random/115x115" />
+            </div>
+
+            <div className="homepage-why-choose-us-list-item-header">
+              Client-Centric Approach
+            </div>
+
+            <div className="homepage-why-choose-us-list-item-text">
+              We prioritize our clients' success and forge strong partnerships built on trust and collaboration.
+            </div>
+          </div>
+
+          <div className="homepage-why-choose-us-list-item-wrapper">
+            <div className="homepage-why-choose-us-list-item-image-wrapper">
+              <img className="homepage-why-choose-us-list-item-image" src="https://source.unsplash.com/random/115x115" />
+            </div>
+
+            <div className="homepage-why-choose-us-list-item-header">
+              Customized Solutions
+            </div>
+
+            <div className="homepage-why-choose-us-list-item-text">
+              We believe that every business is unique, and one-size-fits-all solutions rarely deliver optimal results.            </div>
+          </div>
+
+          <div className="homepage-why-choose-us-list-item-wrapper">
+            <div className="homepage-why-choose-us-list-item-image-wrapper">
+              <img className="homepage-why-choose-us-list-item-image" src="https://source.unsplash.com/random/115x115" />
+            </div>
+
+            <div className="homepage-why-choose-us-list-item-header">
+              Quality and Reliability
+            </div>
+
+            <div className="homepage-why-choose-us-list-item-text">
+              We are committed to delivering excellence in everything we do.          
+            </div>
+          </div>
         </div>
       </div>
     </div>

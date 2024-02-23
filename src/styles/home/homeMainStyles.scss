@@ -270,6 +270,80 @@
     }
   }
 
+  // WHY CHOOSE US SECTION
+
+  .homepage-why-choose-us-wrapper {
+    min-height: calc(100vh - 160px);
+    padding: 80px;
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+
+    .homepage-why-choose-us-intro-wrapper {
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+
+      .homepage-why-choose-us-header {
+        text-align: center;
+        color: $secondary; 
+        font-weight: 600;
+      }
+  
+      .homepage-why-choose-us-subheader {
+        text-align: center;
+        font-size: 28px;
+        color: #000;
+        font-weight: 600;
+      }
+  
+      .homepage-why-choose-us-text {
+        text-align: center;
+        color: #000;
+        font-size: 18px;
+      }
+    }
+
+    .homepage-why-choose-us-list-wrapper {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      justify-items: center;
+      gap: 20px;
+      .homepage-why-choose-us-list-item-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        .homepage-why-choose-us-list-item-image-wrapper {
+          border-radius: 10px;
+          overflow: hidden;
+          height: 115px;
+          width: 115px;
+          margin-bottom: 7.5px;
+          
+          .homepage-why-choose-us-list-item-image {
+            height: 100%;
+            width: 100%;
+          }
+        }
+
+        .homepage-why-choose-us-list-item-header {
+          font-size: 21px;
+          color: #000;
+          font-weight: 600;
+        }
+
+        .homepage-why-choose-us-list-item-text {
+          font-size: 15px;
+          font-weight: 00;
+        }
+      }
+    }
+  }
+
   // SHARED STYLES
 
   .homepage-text-varient {
