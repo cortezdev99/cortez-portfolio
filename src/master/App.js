@@ -4,6 +4,7 @@ import About from "../components/about/About";
 import Services from "../components/services/Services";
 import Contact from "../components/contact/Contact";
 import NavTopBar from "../components/nav/NavTopBar";
+import Footer from "../components/footer/Footer";
 
 const App = () => {
   return (
@@ -17,6 +18,8 @@ const App = () => {
           <Route exact path="/services" element={<Services />} />
           <Route exact path="/contact-us" element={<Contact />} />
         </Routes>
+
+        <Footer />
       </BrowserRouter>
     </div>
   );

@@ -1,4 +1,7 @@
+@import "../colors.scss";
+
 .nav-top-bar-wrapper {
+  background-color: $primary;
   padding: 5px 30px;
   height: calc(40px - 10px);
   display: flex;
@@ -10,7 +13,7 @@
     align-items: center;
 
     .nav-top-bar-logo {
-      color: #1d1d1d;
+      color: $secondary;
       font-weight: 600;
       cursor: pointer;
       font-size: 18px;
@@ -21,14 +24,16 @@
     }
 
     .nav-top-bar-links-wrapper {
-      padding-left: 10px;
+      color: #FFF;
+      font-weight: 600;
+      padding-left: 80px;
       font-size: 16px;
       display: flex;
       align-items: center;
       justify-content: space-evenly;
 
       .nav-top-bar-link-wrapper {
-        padding: 0px 10px;
+        padding: 0px 20px;
         cursor: pointer;
 
         &:hover {
@@ -50,7 +55,7 @@
     .bar {
       height: 2px;
       width: 25px;
-      background-color: #000;
+      background-color: #FFF;
     }
   }
 }
