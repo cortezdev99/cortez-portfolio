@@ -1,0 +1,179 @@
+@import "../colors.scss";
+@import "../animations.scss";
+
+.about-us-wrapper {
+  .about-us-section-image-wrapper {
+    position: relative;
+
+    .about-us-section-image {
+      position: relative;
+      width: 100%;
+      background-attachment: fixed;
+      background-image: url(https://source.unsplash.com/random/600x200);
+      background-position: 50%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 50vh;
+      filter: brightness(60%);
+      object-fit: cover;
+    }
+
+    .about-us-section-image-overlay-text {
+      position: absolute;
+      top: calc(50% - 20px);
+      left: 80px;
+      color: $white-secondary;
+      filter: brightness(150%);
+      font-weight: 800;
+      font-size: 35px;
+    }
+  }
+
+  .about-us-intro-section-wrapper {
+    padding: 80px;
+    background-color: $white;
+    display: flex;
+    align-items: center;
+
+    .about-us-intro-image-wrapper {
+      margin-right: 80px;
+    }
+
+    .about-us-intro-wrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 40px;
+
+      .about-us-intro-header {
+        font-size: 18px;
+        color: $secondary; 
+        font-weight: 600;
+      }
+
+      .about-us-intro-subheader {
+        font-size: 28px;
+        color: #000;
+        font-weight: 600;
+      }
+
+      .about-us-intro-text {
+        color: #000;
+        font-size: 18px;
+      }
+
+      .about-us-intro-action-button {
+        width: max-content;
+        padding: 0px 20px;
+        height: 50px;
+        border: none;
+        border-radius: 10px;
+        color: #000;
+        font-weight: 600;
+        font-size: 16px;
+        cursor: pointer;
+        background: radial-gradient(circle, #feb302, #f8c600, #eed900, #e0ec00, #cdff05);
+
+        &:hover {
+          animation-name: radialGradientExpansion;
+          animation-duration: 200ms;
+          animation-fill-mode:forwards;
+          animation-iteration-count: 1;
+        }
+      }
+    }
+
+    .about-us-intro-image-wrapper {
+      height: 350px;
+      width: 350px;
+
+      .about-us-intro-image {
+        object-fit: cover;
+        height: 100%;
+      }
+    }
+  }
+
+  .about-us-opening-statements-wrapper {
+    padding: 0px 80px 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+
+    .about-us-opening-statement-wrapper {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 20px;
+
+      .about-us-opening-statement-header {
+        font-size: 18px;
+        font-weight: 600;
+        color: $secondary;
+      }
+
+      .about-us-opening-statement-text {
+        color: $primary;
+      }
+    }
+  }
+
+  .about-us-our-process-container {
+    background-color: #e0e0e0;
+    padding: 80px;
+    display: grid;
+    gap: 40px;
+    grid-template-columns: 1fr;
+
+    .about-us-our-process-overview-wrapper {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      .about-us-our-process-overview-header {
+        font-size: 18px;
+        font-weight: 600;
+        color: $secondary;
+      }
+
+      .about-us-our-process-overview-subheader {
+        font-size: 18px;
+        font-weight: 600;
+        color: $primary;
+      }
+
+      .about-us-our-process-overview-text {
+        font-size: 16px;
+        color: $primary;
+      }
+    }
+
+    .about-us-our-process-steps-wrapper {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      gap: 40px;
+
+      .about-us-our-process-step-wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+
+        .about-us-our-process-step-num {
+          font-size: 18px;
+          font-weight: 600;
+          color: $secondary;
+        }
+
+        .about-us-our-process-step-header {
+          font-size: 18px;
+          font-weight: 600;
+          color: $primary
+        }
+
+        .about-us-our-process-step-description {
+          font-size: 16px;
+          color: $primary;
+        }
+      }
+    }
+  }
+}
