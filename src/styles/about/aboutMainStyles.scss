@@ -176,4 +176,55 @@
       }
     }
   }
+
+  .about-us-our-culture-wrapper {
+    padding: 80px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+
+    .about-us-our-culture-intro-wrapper {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 20px;
+
+      .about-us-our-culture-intro-header {
+        font-size: 18px;
+        font-weight: 600;
+        color: $secondary;
+      }
+
+      .about-us-our-culture-intro-text {
+        font-size: 16px;
+        color: $primary;
+      }
+    }
+
+    .about-us-our-culture-values-wrapper {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 40px;
+
+      .about-us-our-culture-value-wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+        
+        .about-us-our-culture-value-icon-wrapper {
+
+        }
+
+        .about-us-our-culture-value-header {
+          font-size: 18px;
+          font-weight: 600;
+          color: $secondary;
+        }
+
+        .about-us-our-culture-value-text {
+          font-size: 16px;
+          color: $primary;
+        }
+      }
+    }
+  }
 }

@@ -129,6 +129,80 @@ const About = () => {
           </div>
         </div>
       </div>
+
+      <div className="about-us-our-culture-wrapper">
+        <div className="about-us-our-culture-intro-wrapper">
+          <div className="about-us-our-culture-intro-header">
+            Our Culture
+          </div>
+
+          <div className="about-us-our-culture-intro-text">
+            At PixelPulse, our culture is guided by four core values of quality, sustainability, customer service, and creativity. We believe that by living these values, we can create beautiful and sustainable software while maintaining a positive and collaborative work environment.
+          </div>
+        </div>
+
+        <div className="about-us-our-culture-values-wrapper">
+          <div className="about-us-our-culture-value-wrapper">
+            <div className="about-us-our-culture-value-icon-wrapper">
+              <img src="https://source.unsplash.com/random/75x75" />
+            </div>
+
+            <div className="about-us-our-culture-value-header">
+              Our Passion for Sustainability
+            </div>
+
+            <div className="about-us-our-culture-value-text">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta incidunt iure doloremque nesciunt eius libero beatae, suscipit illum, tenetur eaque, praesentium vel voluptatum sit in ea iste nam. Amet, magnam.
+              Alias, mollitia aut. Laboriosam blanditiis temporibus pariatur repellat! Dolores beatae asperiores nostrum autem ea amet? Repudiandae ut voluptatibus cupiditate voluptatum mollitia vero voluptates voluptatem, a, dolor officiis, ipsam cumque ipsa?
+            </div>
+          </div>
+
+          <div className="about-us-our-culture-value-wrapper">
+            <div className="about-us-our-culture-value-icon-wrapper">
+              <img src="https://source.unsplash.com/random/75x75" />
+            </div>
+
+            <div className="about-us-our-culture-value-header">
+              Our Dedication to Quality
+            </div>
+
+            <div className="about-us-our-culture-intro-text">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta incidunt iure doloremque nesciunt eius libero beatae, suscipit illum, tenetur eaque, praesentium vel voluptatum sit in ea iste nam. Amet, magnam.
+              Alias, mollitia aut. Laboriosam blanditiis temporibus pariatur repellat! Dolores beatae asperiores nostrum autem ea amet? Repudiandae ut voluptatibus cupiditate voluptatum mollitia vero voluptates voluptatem, a, dolor officiis, ipsam cumque ipsa?
+            </div>
+          </div>
+
+          <div className="about-us-our-culture-value-wrapper">
+            <div className="about-us-our-culture-value-icon-wrapper">
+              <img src="https://source.unsplash.com/random/75x75" />
+            </div>
+
+            <div className="about-us-our-culture-value-header">
+              Our Committment to Customer Satisfaction
+            </div>
+
+            <div className="about-us-our-culture-intro-text">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta incidunt iure doloremque nesciunt eius libero beatae, suscipit illum, tenetur eaque, praesentium vel voluptatum sit in ea iste nam. Amet, magnam.
+              Alias, mollitia aut. Laboriosam blanditiis temporibus pariatur repellat! Dolores beatae asperiores nostrum autem ea amet? Repudiandae ut voluptatibus cupiditate voluptatum mollitia vero voluptates voluptatem, a, dolor officiis, ipsam cumque ipsa?
+            </div>
+          </div>
+
+          <div className="about-us-our-culture-value-wrapper">
+            <div className="about-us-our-culture-value-icon-wrapper">
+              <img src="https://source.unsplash.com/random/75x75" />
+            </div>
+
+            <div className="about-us-our-culture-value-header">
+              Creativity
+            </div>
+
+            <div className="about-us-our-culture-intro-text">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta incidunt iure doloremque nesciunt eius libero beatae, suscipit illum, tenetur eaque, praesentium vel voluptatum sit in ea iste nam. Amet, magnam.
+              Alias, mollitia aut. Laboriosam blanditiis temporibus pariatur repellat! Dolores beatae asperiores nostrum autem ea amet? Repudiandae ut voluptatibus cupiditate voluptatum mollitia vero voluptates voluptatem, a, dolor officiis, ipsam cumque ipsa?
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }
